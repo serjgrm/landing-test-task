@@ -1,0 +1,50 @@
+.list {
+  display: grid;
+  position: relative;
+  row-gap: 17px;
+  &__title {
+    margin-left: 14px;
+    color: #9197b3;
+    text-decoration: none;
+    font-size: var(--main-text-size);
+    font-weight: $main-font-weight;
+    letter-spacing: -0.14px;
+  }
+
+  &__item {
+    padding: 11px $list-item-padding-right 11px 11px;
+    border-radius: 8px;
+    height: 46px;
+    cursor: pointer;
+    &:hover {
+      background: $purple;
+      .list__icon--both .stroke {
+        stroke: $white;
+      }
+      .list__icon--both .fill {
+        fill: $white;
+      }
+      .list__icon--stroke path {
+        stroke: $white;
+      }
+      .list__icon--fill path {
+        fill: $white;
+      }
+      .list__title {
+        color: $white;
+      }
+      .list__arrow path {
+        stroke: $white;
+      }
+    }
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  &__arrow {
+    position: absolute;
+    right: $list-item-padding-right;
+  }
+}

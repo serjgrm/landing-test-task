@@ -1,0 +1,15 @@
+.customers {
+  padding:
+    calc(30px * var(--media-coef))
+    calc($customers-padding-right * var(--media-coef))
+    calc(40px * var(--media-coef))
+    calc($customers-padding-left * var(--media-coef));
+  border-radius: 30px;
+  background-color: $white;
+  &__pagination {
+    margin-top: calc(var(--media-coef) * 30px);
+  }
+  &__table {
+    margin-top: 16px;
+  }
+}

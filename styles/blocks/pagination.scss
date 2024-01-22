@@ -1,0 +1,43 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  &__pages {
+    display: flex;
+    column-gap: 12px;
+  }
+  &__descr {
+    color: $light-grey;
+    font-size: var(--main-text-size);
+    font-weight: $main-font-weight;
+    letter-spacing: -0.14px;
+    line-height: 21px;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 26px;
+    height: 24px;
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background: #f5f5f5;
+
+    font-size: 12px;
+    font-weight: $main-font-weight;
+    line-height: 100%;
+    letter-spacing: -0.12px;
+    color: #404b52;
+
+    cursor: pointer;
+    &:hover {
+      border: 1px solid $purple;
+      background: $purple;
+      color: $white;
+    }
+  }
+  &__elipsis {
+    color: $black;
+  }
+}

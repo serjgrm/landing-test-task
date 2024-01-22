@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    color: $black;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.22px;
+    line-height: 33px;
+  }
+
+  &__filter {
+    color: #16c098;
+    font-size: var(--main-text-size);
+    font-weight: 400;
+    letter-spacing: -0.14px;
+    margin-top: calc(var(--media-coef) * 7px);
+    line-height: 21px;
+  }
+}

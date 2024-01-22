@@ -1,0 +1,122 @@
+@media (max-width: $desktop-max-width) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    display: none;
+  }
+}
+
+@media (max-width: $tablet-max-width) {
+  :root {
+    --media-coef: 0.75;
+    --main-text-size: 12px;
+  }
+  .navigation {
+    &__title {
+      font-size: 20px;
+      line-height: normal;
+    }
+    &__filter {
+      line-height: normal;
+    }
+  }
+  .table {
+    &__row {
+      height: 58px;
+    }
+  }
+}
+
+@media (max-width: $mobile-max-width) {
+  :root {
+    --media-coef: 0.5;
+    --main-text-size: 9px;
+  }
+  .main {
+    &__title {
+      font-size: 20px;
+    }
+  }
+  .table {
+    &__item--active, &__item--inactive {
+      width: auto;
+      padding: 0;
+    }
+    &__row {
+      height: 42px;
+    }
+  }
+  .navigation {
+    &__title {
+      font-size: 18px;
+    }
+  }
+  .pagination{
+    &__pages {
+      gap: 8px;
+    }
+    &__item {
+      width: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+    &__elipsis {
+      font-size: 10px;
+      line-height: 2;
+    }
+  }
+}
+
+@media (max-width: $mobile-min-width) {
+  :root {
+    --media-coef: 0.3;
+    --main-text-size: 6px;
+  }
+  .main {
+    &__title {
+      font-size: 16px;
+    }
+  }
+  .navigation {
+    &__title {
+      font-size: 14px;
+    }
+  }
+  .pagination{
+    &__pages {
+      gap: 5px;
+    }
+    &__item {
+      width: 15px;
+      height: 15px;
+      font-size: 6px;
+    }
+    &__elipsis {
+      font-size: 6px;
+      line-height: 3;
+    }
+  }
+  .form {
+    padding: 5px;
+    width: auto;
+    height: 25px;
+    &__input {
+      font-size: 10px;
+    }
+    &__img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .customers {
+    &__table {
+      margin-top: 13px;
+    }
+  }
+  .table {
+    &__row {
+      height: 30px;
+    }
+  }
+}

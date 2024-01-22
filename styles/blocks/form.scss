@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  align-items: center;
+  width: 216px;
+  height: 38px;
+  padding: 8px 7px;
+  border-radius: 10px;
+  background: #f9fbff;
+  &__input {
+    margin-left: 8px;
+    border: none;
+    background: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: $light-grey;
+    }
+  }
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+  &__label {
+    display: flex;
+    cursor: pointer;
+  }
+}

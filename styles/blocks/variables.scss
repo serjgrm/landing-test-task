@@ -1,0 +1,24 @@
+$aside-padding-bottom: 76px;
+$aside-padding-left: 28px;
+$list-item-padding-right: 8px;
+$customers-padding-left: 38px;
+$customers-padding-right: 44px;
+
+$main-bgc: #fafbff;
+$purple: #5932ea;
+$white: #fff;
+$light-grey: #b5b7c0;
+$black: #000;
+$red-strong: #df0404;
+
+$main-font-weight: 500;
+
+$desktop-max-width: 1439px;
+$tablet-max-width: 1140px;
+$mobile-max-width: 776px;
+$mobile-min-width: 500px;
+
+:root {
+  --media-coef: 1;
+  --main-text-size: 14px;
+}

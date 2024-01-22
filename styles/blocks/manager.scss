@@ -1,0 +1,23 @@
+.manager {
+  display: flex;
+  column-gap: 10px;
+
+  &__icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  &__title {
+    color: $black;
+    font-size: var(--main-text-size);
+    font-weight: $main-font-weight;
+    letter-spacing: 0.14px;
+  }
+
+  &__position {
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+  }
+}

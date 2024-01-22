@@ -1,0 +1,9 @@
+.page {
+  display: grid;
+  grid-template-columns: 306px minmax(0, 1fr);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  background-color: $main-bgc;
+  &__main {
+    margin: calc(41px * var(--media-coef)) auto 0;
+  }
+}

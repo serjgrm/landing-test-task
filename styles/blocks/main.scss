@@ -1,0 +1,10 @@
+.main {
+  &__title {
+    color: $black;
+    font-size: 24px;
+    font-weight: $main-font-weight;
+  }
+  &__customers {
+    margin-top: calc(51px * var(--media-coef));
+  }
+}

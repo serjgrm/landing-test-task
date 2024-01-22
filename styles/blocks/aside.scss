@@ -1,0 +1,16 @@
+.aside {
+  position: relative;
+  padding: 37px 61px $aside-padding-bottom $aside-padding-left;
+  background: $white;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+
+  &__list {
+    margin-top: 66px;
+  }
+
+  &__manager {
+    position: absolute;
+    bottom: $aside-padding-bottom;
+    left: $aside-padding-left;
+  }
+}
